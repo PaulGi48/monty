@@ -1,6 +1,27 @@
 # monty
 A group/solo project under the ALX - SWE'22 syllabus that helps understand "Stacks, Queues - LIFO, FIFO" algorithm problem solving approach
 
+# 0x19. C - Stacks, Queues - LIFO, FIFO 
+
+# Usage
+
+- Clone the repository
+
+```sh
+$ git clone https://github.com/paulgi48/monty.git
+```
+
+- The codes will be compiled this way:
+
+```sh
+$ gcc -Wall -Werror -Wextra -pedantic *.c -o monty
+```
+
+- The monty program
+
+```sh
+$ ./monty <file.m>
+
 ## The Monty language
 
 Monty 0.98 is a scripting language that is first compiled into Monty byte codes (Just like Python). It relies on a unique stack, with specific instructions to manipulate it. The goal of this project is to create an interpreter for Monty ByteCodes files.
